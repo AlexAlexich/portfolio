@@ -62,14 +62,15 @@ $(document).ready(function() {
     })
 
     $('#meni ul li i').click(function() {
-            let vidljiv = $("#meni ul li").find("ul").is(":visible");
-            if (vidljiv) {
-                $("#meni ul li").find("ul").hide();
-            } else {
-                $("#meni ul li").find("ul").show();
-            }
-        })
-        //Podestiti da kad je iskljucen i prebaci se na drugu rez ne ne stane
+        let vidljiv = $("#meni ul li").find("ul").is(":visible");
+        if (vidljiv) {
+            $("#meni ul li").find("ul").hide();
+        } else {
+            $("#meni ul li").find("ul").show();
+        }
+
+
+    })
 
 
 
