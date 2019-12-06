@@ -75,13 +75,13 @@ body #head #meni {
     height: 300px;
 }
 
-body #head #meni li {
+body #head #meni ul li ul li {
     width: 90%;
     border-bottom: 1px dotted #fff;
     margin: 0px auto;
 }
 
-body #head #meni li a {
+body #head #meni ul li ul li a {
     font-size: 30px;
     color: #fff;
 }
@@ -335,6 +335,10 @@ body footer a {
     color: #fff;
 }
 
+.hide {
+    display: none;
+}
+
 body footer #social {
     font-size: 30px;
     padding: 10px;
@@ -346,10 +350,6 @@ body footer #social a {
 }
 
 #skills ul {
-    display: none;
-}
-
-.hide {
     display: none;
 }
 

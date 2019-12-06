@@ -25,6 +25,9 @@
         margin-top: 25px;
     }
     body #head #meni ul {
+        width: 100%;
+    }
+    body #head #meni ul li ul {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -32,11 +35,11 @@
         justify-content: space-around;
         width: 100%;
     }
-    body #head #meni ul li {
+    body #head #meni ul li ul li {
         margin: none;
         border: none;
     }
-    body #head #meni ul li a {
+    body #head #meni ul li ul li a {
         font-size: 30px;
     }
     body #left {
@@ -82,7 +85,7 @@
 
 @media only screen and (max-width: 540px) {
     body #head {
-        height: 100px;
+        height: 120px;
         text-align: center;
     }
     body #head #meni {
@@ -104,7 +107,7 @@
         margin-left: 10px;
     }
     body #head #meni ul li a {
-        font-size: 18px;
+        font-size: 15px;
     }
     body #left #slider {
         margin-top: 100px;
@@ -113,5 +116,4 @@
     body #left #about p {
         font-size: 18px;
     }
-    
 }
