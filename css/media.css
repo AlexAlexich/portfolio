@@ -113,7 +113,5 @@
     body #left #about p {
         font-size: 18px;
     }
-    #meni ul li ul {
-        display: flex;
-    }
+    
 }
